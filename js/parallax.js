@@ -7,7 +7,7 @@ function parallax() {
       console.log("parllaxiando......")
       var value = window.scrollY;
 
-      pandora.style.top = value * 0.5 + 'px';
+      // pandora.style.top = value * 0.5 + 'px';
       psicopata.style.left = value * 0.5 + 'px';
       textparallax.style.top = value * 0.15 + 'px';
   })
